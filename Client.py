@@ -29,3 +29,19 @@ def displaySourcesList():
     print("3. Search by language")
     print("4. List all")
     print("5. Back to the main menu")
+
+    def send_request(cs, request):
+    # Send a request to the server and handle the response
+        cs.send(request.encode('utf-8'))  # Send the request to the server
+        response_length_str = cs.recv(1024).decode('utf-8')  # Receive the length of the response
+        response_length = int(response_length_str)
+        print(f"Received Response length string: {response_length}")
+        response_data = b""
+    
+    # Receive the full response data based on the specified length
+        while len(response_data) < response_length:
+            part = cs.recv(response_length - len(response_data))
+            response_data += part
+    
+    # Decode the response data from JSON
+        return json.loads(response_data.decode('utf-8'))
