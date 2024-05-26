@@ -45,3 +45,29 @@ def displaySourcesList():
     
     # Decode the response data from JSON
         return json.loads(response_data.decode('utf-8'))
+    
+def printResults(news_data):
+    # Print the news articles retrieved from the server
+    if news_data['status'] == 'ok':
+            for i, article in enumerate(news_data['articles']):
+                print(f"{i + 1}. {article['title']}")
+        
+            choice = int(input("Select an article number for details: "))
+        
+        # Display details of the selected article
+            if 1 <= choice <= len(news_data['articles']):
+                    article = news_data['articles'][choice - 1]
+                    print(f"Title: {article['title']}")
+                    print(f"Description: {article['description']}")
+                    print(f"Source: {article['source']['name']}")
+                    print(f"URL: {article['url']}")
+    else:
+        print('Failed to fetch news.')
+
+def printSources(sources_data):
+    # Print the news sources retrieved from the server
+    if sources_data['status'] == 'ok':
+        for i, source in enumerate(sources_data['sources']):
+            print(f"{i + 1}. {source['name']} ({source['country']})")
+    else:
+        print('Failed to fetch sources.')
