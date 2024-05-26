@@ -41,3 +41,52 @@ def saveDataToFile (group_id, client_name, option, data):
     with open(filename, 'w') as f:
         json.dump(data, f, indent=4)   
 
+
+# Function to handle the client request
+def manageUserRequest(client_socket, addr):
+    print(f"Start connection {addr}")
+    try:
+        # Receive the client name
+        client_name = client_socket.recv(1024).decode('utf-8')
+        print(f"Client Name: {client_name}")
+        # Handle the client request
+        while True:
+            # Receive the request from the client
+            request = client_socket.recv(1024).decode('utf-8')
+            if not request:
+                break
+            print(f"The Client: {client_name}, Request: {request}")
+            # Check if the request is for news data
+            if request.startswith('1.') or request.startswith('2.'):
+                # Split the request into the endpoint and parameters
+                _, endpoint, params_json = request.split('.', 2)
+                params = json.loads(params_json)
+                # Retrieve the news data
+                news_data = retrieveNews (endpoint, params)
+                # Extract the main option from the endpoint
+                option = endpoint.split('.')[0]
+                # Save the news data to a file
+                saveDataToFile ("B4", client_name, f"{option}", news_data)
+                # Send the response to the client
+                response = json.dumps(news_data).encode('utf-8')
+                response_length = len(response)
+                print(f"Sending response length: {response_length}")
+                client_socket.sendall(str(response_length).encode('utf-8').ljust(10))
+                client_socket.sendall(response)
+                print("Response sent")
+            else:
+                # Send an error response to the client
+                error_response = json.dumps({'status': 'error', 'message': 'Invalid request'}).encode('utf-8')
+                client_socket.sendall(str(len(error_response)).encode('utf-8').ljust(10))
+                client_socket.sendall(error_response)
+    except ConnectionResetError:
+        pass
+    finally:
+        # Disconnect the client
+        print(f"Client {client_name} disconnected")
+        client_socket.close()
+
+# Start the server
+if __name__ == '__main__':
+    startServer()
+
