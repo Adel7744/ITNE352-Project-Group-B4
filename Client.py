@@ -129,3 +129,32 @@ def bringSourceList(cs):
         return
     else:
         print("Invalid input. Please enter again")
+
+def startClient():
+    # Create a socket and connect to the server
+    cs = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
+    cs.connect((HOST, PORT))
+    print("Connected to server.")
+    
+    client_name = input("Enter your name: ")
+    cs.send(client_name.encode('utf-8'))  # Send the client's name to the server
+    
+    while True:  # Main loop to display the main menu and handle user choices
+        displayMain()
+        option = input("Select an option: ")  # Handle the user's choice
+        
+        if option == '1':
+            bringHeadlinesNews(cs)
+        elif option == '2':
+            bringSourceList(cs)
+        elif option == '3':
+            print("Quitting...")
+            break
+        else:
+            print("Invalid input. Please enter again.")
+
+    # Close the socket connection
+    cs.close()
+
+if __name__ == '__main__':
+    startClient()
