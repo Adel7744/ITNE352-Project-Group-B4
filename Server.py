@@ -32,4 +32,12 @@ def retrieveNews (endpoint, params):
     else:
         # Return an error message
         return {'status': 'error', 'message': 'Unable to fetch data'}
+    
+ # Function to save the retrieved news data to a file
+def saveDataToFile (group_id, client_name, option, data):
+    # Construct the filename based on the input parameters
+    filename = f"{group_id}_{client_name}_{option}.json"
+    # Write the data to the file in JSON format
+    with open(filename, 'w') as f:
+        json.dump(data, f, indent=4)   
 
