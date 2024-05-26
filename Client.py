@@ -30,7 +30,7 @@ def displaySourcesList():
     print("4. List all")
     print("5. Back to the main menu")
 
-    def send_request(cs, request):
+def send_request(cs, request):
     # Send a request to the server and handle the response
         cs.send(request.encode('utf-8'))  # Send the request to the server
         response_length_str = cs.recv(1024).decode('utf-8')  # Receive the length of the response
@@ -71,3 +71,61 @@ def printSources(sources_data):
             print(f"{i + 1}. {source['name']} ({source['country']})")
     else:
         print('Failed to fetch sources.')
+
+def bringHeadlinesNews(cs):
+    # Handle the user input for searching headlines
+    listHeadlinesNews()
+    option = input("Select an option: ")  # Get the user's option
+
+    # Handle the user's choice
+    if option == '1':
+        keyword = input("Enter keyword: ")
+        params = {'q': keyword}
+        news_data = send_request(cs, f'1.everything.{json.dumps(params)}')
+        printResults(news_data)
+    elif option == '2':
+        category = input("Enter category (e.g., business, entertainment, general, health, science, sports, technology): ")
+        params = {'category': category}
+        news_data = send_request(cs, f'1.top-headlines.{json.dumps(params)}')
+        printResults(news_data)
+    elif option == '3':
+        country = input("Enter country code (au, nz, ca, ae, sa, gb, us, eg, ma, etc.): ")
+        params = {'country': country}
+        news_data = send_request(cs, f'1.top-headlines.{json.dumps(params)}')
+        printResults(news_data)
+    elif option == '4':
+        news_data = send_request(cs, '1.top-headlines.{}')
+        printResults(news_data)
+    elif option == '5':
+        return
+    else:
+        print("Invalid input. Please enter again...")
+
+def bringSourceList(cs):
+    # Handle the user input for listing sources
+    displaySourcesList()
+    option = input("Select an option: ")  # Get the user's option
+
+    # Handle the user's choice
+    if option == '1':
+        category = input("Enter category (e.g., business, entertainment, general, health, science, sports, technology): ")
+        params = {'category': category}
+        sources_data = send_request(cs, f'2.sources.{json.dumps(params)}')
+        printSources(sources_data)
+    elif option == '2':
+        country = input("Enter country code (e.g., au, nz, ca, ae, sa, gb, us, eg, ma): ")
+        params = {'country': country}
+        sources_data = send_request(cs, f'2.sources.{json.dumps(params)}')
+        printSources(sources_data)
+    elif option == '3':
+        language = input("Enter language code (en, fr, de, es, ar, etc.): ")
+        params = {'language': language}
+        sources_data = send_request(cs, f'2.sources.{json.dumps(params)}')
+        printSources(sources_data)
+    elif option == '4':
+        sources_data = send_request(cs, '2.sources.{}')
+        printSources(sources_data)
+    elif option == '5':
+        return
+    else:
+        print("Invalid input. Please enter again")
