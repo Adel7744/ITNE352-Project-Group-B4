@@ -1,0 +1,266 @@
+{
+    "status": "ok",
+    "totalResults": 1000,
+    "articles": [
+        {
+            "source": {
+                "id": "google-news",
+                "name": "Google News"
+            },
+            "author": "Sports Cars.fr",
+            "title": "Voici combien co\u00fbte le remplacement d'une batterie Tesla ! - Sports Cars.fr",
+            "description": null,
+            "url": "https://news.google.com/rss/articles/CBMiU2h0dHBzOi8vd3d3LnNwb3J0cy1jYXJzLmZyL3ZvaWNpLWNvbWJpZW4tY291dGUtbGUtcmVtcGxhY2VtZW50LWR1bmUtYmF0dGVyaWUtdGVzbGEv0gEA?oc=5",
+            "urlToImage": null,
+            "publishedAt": "2024-05-26T08:00:49Z",
+            "content": null
+        },
+        {
+            "source": {
+                "id": "google-news",
+                "name": "Google News"
+            },
+            "author": "InfoQ.com",
+            "title": "Microsoft Introduces the Public Preview of Bicep Templates Support for Microsoft Graph - InfoQ.com",
+            "description": null,
+            "url": "https://news.google.com/rss/articles/CBMiQmh0dHBzOi8vd3d3LmluZm9xLmNvbS9uZXdzLzIwMjQvMDUvcHVibGljLXByZXZpZXctYmljZXAtdGVtcGxhdGVzL9IBAA?oc=5",
+            "urlToImage": null,
+            "publishedAt": "2024-05-26T08:00:18Z",
+            "content": null
+        },
+        {
+            "source": {
+                "id": "google-news",
+                "name": "Google News"
+            },
+            "author": "Montres Seven.fr",
+            "title": "Fitbit inspire 4 : Date de sortie, caract\u00e9ristiques et fonctionnalit\u00e9s r\u00e9v\u00e9l\u00e9es ! - Montres Seven.fr",
+            "description": null,
+            "url": "https://news.google.com/rss/articles/CBMiamh0dHBzOi8vd3d3Lm1vbnRyZXMtc2V2ZW4uZnIvZml0Yml0LWluc3BpcmUtNC1kYXRlLWRlLXNvcnRpZS1jYXJhY3RlcmlzdGlxdWVzLWV0LWZvbmN0aW9ubmFsaXRlcy1yZXZlbGVlcy_SAQA?oc=5",
+            "urlToImage": null,
+            "publishedAt": "2024-05-26T08:00:00Z",
+            "content": null
+        },
+        {
+            "source": {
+                "id": "google-news",
+                "name": "Google News"
+            },
+            "author": "kryptomagazin.cz",
+            "title": "V p\u00e1tek vypr\u0161\u00ed bitcoinov\u00e9 opce za 4,5 miliardy USD \u2013 co to ud\u011bl\u00e1 s cenou? - kryptomagazin.cz",
+            "description": null,
+            "url": "https://news.google.com/rss/articles/CBMiX2h0dHBzOi8va3J5cHRvbWFnYXppbi5jei92LXBhdGVrLXZ5cHJzaS1iaXRjb2lub3ZlLW9wY2UtemEtNDUtbWlsaWFyZHktdXNkLWNvLXRvLXVkZWxhLXMtY2Vub3Uv0gEA?oc=5",
+            "urlToImage": null,
+            "publishedAt": "2024-05-26T08:00:00Z",
+            "content": null
+        },
+        {
+            "source": {
+                "id": "google-news",
+                "name": "Google News"
+            },
+            "author": "heise online",
+            "title": "Google: \"Mein Ger\u00e4t finden\"-Netzwerk in Deutschland aktiviert - heise online",
+            "description": null,
+            "url": "https://news.google.com/rss/articles/CBMiTmh0dHBzOi8vd3d3LmhlaXNlLmRlL25ld3MvR29vZ2xlLXNjaGFsdGV0LU1laW4tR2VyYWV0LWZpbmRlbi1mcmVpLTk3MzIzNTguaHRtbNIBAA?oc=5",
+            "urlToImage": null,
+            "publishedAt": "2024-05-26T07:48:00Z",
+            "content": null
+        },
+        {
+            "source": {
+                "id": "google-news",
+                "name": "Google News"
+            },
+            "author": "Sports Cars.fr",
+            "title": "Toyota R\u00e9volutionne l'Industrie Automobile avec sa Nouvelle Batterie \u00e0 l'\u00c9tat Solide de 1200 km d'Autonomie ! - Sports Cars.fr",
+            "description": null,
+            "url": "https://news.google.com/rss/articles/CBMihAFodHRwczovL3d3dy5zcG9ydHMtY2Fycy5mci90b3lvdGEtcmV2b2x1dGlvbm5lLWxpbmR1c3RyaWUtYXV0b21vYmlsZS1hdmVjLXNhLW5vdXZlbGxlLWJhdHRlcmllLWEtbGV0YXQtc29saWRlLWRlLTEyMDAta20tZGF1dG9ub21pZS_SAQA?oc=5",
+            "urlToImage": null,
+            "publishedAt": "2024-05-26T07:30:02Z",
+            "content": null
+        },
+        {
+            "source": {
+                "id": "google-news",
+                "name": "Google News"
+            },
+            "author": "SeznamZpr\u00e1vy.cz",
+            "title": "Za doporu\u010den\u00fd dopis 70 korun? Lid\u00e9 bez po\u010d\u00edta\u010d\u016f si rad\u011bji zakl\u00e1daj\u00ed datovky - SeznamZpr\u00e1vy.cz",
+            "description": null,
+            "url": "https://news.google.com/rss/articles/CBMiiQFodHRwczovL3d3dy5zZXpuYW16cHJhdnkuY3ovY2xhbmVrL2RvbWFjaS16aXZvdC12LWNlc2t1LXphLWRvcG9ydWNlbnktZG9waXMtNzAta29ydW4tbGlkZS1iZXotcG9jaXRhY3Utc2ktcmFkZWppLXpha2xhZGFqaS1kYXRvdmt5LTI1MjU0OdIBAA?oc=5",
+            "urlToImage": null,
+            "publishedAt": "2024-05-26T07:30:00Z",
+            "content": null
+        },
+        {
+            "source": {
+                "id": "google-news",
+                "name": "Google News"
+            },
+            "author": "Clubic",
+            "title": "TP-Link : 5 nouvelles cam\u00e9ras de vid\u00e9osurveillance connect\u00e9es pour l'int\u00e9rieur comme l'ext\u00e9rieur - Clubic",
+            "description": null,
+            "url": "https://news.google.com/rss/articles/CBMiiwFodHRwczovL3d3dy5jbHViaWMuY29tL2FjdHVhbGl0ZS01Mjc5NDAtdHAtbGluay01LW5vdXZlbGxlcy1jYW1lcmFzLWRlLXZpZGVvc3VydmVpbGxhbmNlLWNvbm5lY3RlZXMtcG91ci1sLWludGVyaWV1ci1jb21tZS1sLWV4dGVyaWV1ci5odG1s0gEA?oc=5",
+            "urlToImage": null,
+            "publishedAt": "2024-05-26T07:30:00Z",
+            "content": null
+        },
+        {
+            "source": {
+                "id": "google-news",
+                "name": "Google News"
+            },
+            "author": "Frandroid",
+            "title": "La nouvelle montre de Huawei aux airs d'Apple Watch est d\u00e9j\u00e0 remis\u00e9e dans un pack \u00e0 -20 % - Frandroid",
+            "description": null,
+            "url": "https://news.google.com/rss/articles/CBMiggFodHRwczovL3d3dy5mcmFuZHJvaWQuY29tL2JvbnMtcGxhbnMvMjAyODI4MF9sYS1ub3V2ZWxsZS1tb250cmUtZGUtaHVhd2VpLWF1eC1haXJzLWRhcHBsZS13YXRjaC1lc3QtZGVqYS1yZW1pc2VlLWRhbnMtdW4tcGFjay1hLTIw0gEA?oc=5",
+            "urlToImage": null,
+            "publishedAt": "2024-05-26T07:26:51Z",
+            "content": null
+        },
+        {
+            "source": {
+                "id": "google-news",
+                "name": "Google News"
+            },
+            "author": "La Vanguardia",
+            "title": "M\u00e1xima tensi\u00f3n en Cannes con Massiel Taveras y la misma guardia de seguridad que molest\u00f3 a Kelly Rowland - La Vanguardia",
+            "description": null,
+            "url": "https://news.google.com/rss/articles/CBMiigFodHRwczovL3d3dy5sYXZhbmd1YXJkaWEuY29tL2dlbnRlLzIwMjQwNTI2Lzk2NzcyODkvbWF4aW1hLXRlbnNpb24tY2FubmVzLW1hc3NpZWwtdGF2ZXJhcy1ndWFyZGlhLXNlZ3VyaWRhZC1tb2xlc3RvLWtlbGx5LXJvd2xhbmQtcG12Lmh0bWzSAQA?oc=5",
+            "urlToImage": null,
+            "publishedAt": "2024-05-26T07:17:32Z",
+            "content": null
+        },
+        {
+            "source": {
+                "id": "google-news",
+                "name": "Google News"
+            },
+            "author": "Les Num\u00e9riques",
+            "title": "1000 $ une application Android : Google augmente le prix maximum des apps du Play Store - Les Num\u00e9riques",
+            "description": null,
+            "url": "https://news.google.com/rss/articles/CBMikQFodHRwczovL3d3dy5sZXNudW1lcmlxdWVzLmNvbS90ZWxlcGhvbmUtcG9ydGFibGUvMTAwMC11bmUtYXBwbGljYXRpb24tYW5kcm9pZC1nb29nbGUtYXVnbWVudGUtbGUtcHJpeC1tYXhpbXVtLWRlcy1hcHBzLWR1LXBsYXktc3RvcmUtbjIyMjE0OS5odG1s0gEA?oc=5",
+            "urlToImage": null,
+            "publishedAt": "2024-05-26T07:15:00Z",
+            "content": null
+        },
+        {
+            "source": {
+                "id": "google-news",
+                "name": "Google News"
+            },
+            "author": "La Raz\u00f3n",
+            "title": "Estos auriculares con IA permiten escuchar a una sola persona entre una multitud mir\u00e1ndola solo una vez - La Raz\u00f3n",
+            "description": null,
+            "url": "https://news.google.com/rss/articles/CBMicmh0dHBzOi8vd3d3LmxhcmF6b24uZXMvdGVjbm9sb2dpYS9hdXJpY3VsYXJlcy1lc2N1Y2hhci1zb2xhLXBlcnNvbmEtbXVsdGl0dWRfMjAyNDA1MjY2NjUyZTExYzE3NjI5YTAwMDEzNTQ0YjcuaHRtbNIBgQFodHRwczovL3d3dy5sYXJhem9uLmVzL3RlY25vbG9naWEvYXVyaWN1bGFyZXMtZXNjdWNoYXItc29sYS1wZXJzb25hLW11bHRpdHVkXzIwMjQwNTI2NjY1MmUxMWMxNzYyOWEwMDAxMzU0NGI3Lmh0bWw_b3V0cHV0VHlwZT1hbXA?oc=5",
+            "urlToImage": null,
+            "publishedAt": "2024-05-26T07:13:32Z",
+            "content": null
+        },
+        {
+            "source": {
+                "id": "google-news",
+                "name": "Google News"
+            },
+            "author": "Jawal Apk Android",
+            "title": "\u0628\u0645\u0648\u0627\u0635\u0641\u0627\u062a \u0642\u064a\u0627\u0633\u064a\u0629 .. \u0647\u0627\u062a\u0641 Xiaomi 14 \u0627\u0644\u062c\u062f\u064a\u062f \u0641\u064a \u0627\u0644\u0633\u0648\u0642 \u0627\u0644\u0633\u0639\u0648\u062f\u064a \u0628\u0633\u0639\u0631 \u0645\u0645\u064a\u0632 \u0641\u064a \u0645\u062e\u062a\u0644\u0641 \u0627\u0644\u062f\u0648\u0644 \u0627\u0644\u0639\u0631\u0628\u064a\u0629 - Jawal Apk Android",
+            "description": null,
+            "url": "https://news.google.com/rss/articles/CBMi3gFodHRwczovL2phd2FsYXBrLmFwcC9ibG9nLyVEOCVBOCVEOSU4NSVEOSU4OCVEOCVBNyVEOCVCNSVEOSU4MSVEOCVBNyVEOCVBQS0lRDklODIlRDklOEElRDglQTclRDglQjMlRDklOEElRDglQTktJUQ5JTg3JUQ4JUE3JUQ4JUFBJUQ5JTgxLXhpYW9taS0xNC0lRDglQTclRDklODQlRDglQUMlRDglQUYlRDklOEElRDglQUYtJUQ5JTgxJUQ5JThBLSVEOCVBNyVEOSU4NCVEOCVCMyVEOSU4OC_SAQA?oc=5",
+            "urlToImage": null,
+            "publishedAt": "2024-05-26T07:10:01Z",
+            "content": null
+        },
+        {
+            "source": {
+                "id": "google-news",
+                "name": "Google News"
+            },
+            "author": "Cointribune",
+            "title": "Crypto : Pourquoi Ripple vend-il autant de XRP ? - Cointribune",
+            "description": null,
+            "url": "https://news.google.com/rss/articles/CBMiSWh0dHBzOi8vd3d3LmNvaW50cmlidW5lLmNvbS9jcnlwdG8tcG91cnF1b2ktcmlwcGxlLXZlbmQtaWwtYXV0YW50LWRlLXhycC_SAQA?oc=5",
+            "urlToImage": null,
+            "publishedAt": "2024-05-26T07:07:13Z",
+            "content": null
+        },
+        {
+            "source": {
+                "id": "google-news",
+                "name": "Google News"
+            },
+            "author": "PC-WELT",
+            "title": "Lohnt sich f\u00fcr Sie ein Balkonkraftwerk? Mit diesem Online-Rechner erfahren Sie es - PC-WELT",
+            "description": null,
+            "url": "https://news.google.com/rss/articles/CBMiSWh0dHBzOi8vd3d3LnBjd2VsdC5kZS9hcnRpY2xlLzIzMzY5NjcvYmFsa29ua3JhZnR3ZXJrLW9ubGluZS1yZWNobmVyLmh0bWzSAQA?oc=5",
+            "urlToImage": null,
+            "publishedAt": "2024-05-26T07:05:00Z",
+            "content": null
+        },
+        {
+            "source": {
+                "id": "google-news",
+                "name": "Google News"
+            },
+            "author": "Andro4all",
+            "title": "Wi-Fi con el Modo avi\u00f3n en el iPhone: cu\u00e1ndo es el mejor momento de usar este m\u00e9todo - Andro4all",
+            "description": null,
+            "url": "https://news.google.com/rss/articles/CBMigAFodHRwczovL3d3dy5sYXZhbmd1YXJkaWEuY29tL2FuZHJvNGFsbC9hcHBsZS93aS1maS1jb24tZWwtbW9kby1hdmlvbi1lbi1lbC1pcGhvbmUtY3VhbmRvLWVzLWVsLW1lam9yLW1vbWVudG8tZGUtdXNhci1lc3RlLW1ldG9kb9IBAA?oc=5",
+            "urlToImage": null,
+            "publishedAt": "2024-05-26T07:01:14Z",
+            "content": null
+        },
+        {
+            "source": {
+                "id": "google-news",
+                "name": "Google News"
+            },
+            "author": "DER STANDARD",
+            "title": "Rabbit-CEO soll Krypto-NFT-Scam betrieben haben - DER STANDARD",
+            "description": null,
+            "url": "https://news.google.com/rss/articles/CBMiXmh0dHBzOi8vd3d3LmRlcnN0YW5kYXJkLmF0L3N0b3J5LzMwMDAwMDAyMjEyOTUvcmFiYml0LWNlby1zb2xsLWtyeXB0by1uZnQtc2NhbS1iZXRyaWViZW4taGFiZW7SAQA?oc=5",
+            "urlToImage": null,
+            "publishedAt": "2024-05-26T07:00:00Z",
+            "content": null
+        },
+        {
+            "source": {
+                "id": "google-news",
+                "name": "Google News"
+            },
+            "author": "t-online",
+            "title": "F\u00fcr KI-Start-up xAI: Elon Musk will weltweit gr\u00f6\u00dften Computer bauen - t-online",
+            "description": null,
+            "url": "https://news.google.com/rss/articles/CBMigQFodHRwczovL3d3dy50LW9ubGluZS5kZS9kaWdpdGFsL2FrdHVlbGxlcy9pZF8xMDA0MTM4NTYvZnVlci1raS1zdGFydC11cC14YWktZWxvbi1tdXNrLXdpbGwtd2VsdHdlaXQtZ3JvZXNzdGVuLWNvbXB1dGVyLWJhdWVuLmh0bWzSAQA?oc=5",
+            "urlToImage": null,
+            "publishedAt": "2024-05-26T06:51:04Z",
+            "content": null
+        },
+        {
+            "source": {
+                "id": null,
+                "name": "Zoom"
+            },
+            "author": "Divya",
+            "title": "Google AI Overview Falsely Claims Barack Obama A Muslim, Google Responds - Times Now",
+            "description": "Google's AI search tool falsely labelled Barack Obama as Muslim, leading to corrections and raising concerns about the accuracy of AI-generated information. Here is all you need to know.",
+            "url": "https://www.timesnownews.com/technology-science/google-ai-overview-falsely-claims-barack-obama-a-muslim-google-responds-article-110435038",
+            "urlToImage": "https://static.tnn.in/thumb/msid-110435245,thumbsize-839807,width-1280,height-720,resizemode-75/110435245.jpg",
+            "publishedAt": "2024-05-26T06:47:13Z",
+            "content": "Updated May 26, 2024, 12:17 IST"
+        },
+        {
+            "source": {
+                "id": "google-news",
+                "name": "Google News"
+            },
+            "author": "\u0424\u041e\u041a\u0423\u0421 - \u0438\u043d\u0444\u043e\u0440\u043c\u0430\u0446\u0438\u043e\u043d\u043d\u0430 \u0430\u0433\u0435\u043d\u0446\u0438\u044f",
+            "title": "\u0423\u043a\u0440\u0430\u0438\u043d\u0441\u043a\u0438\u0442\u0435 \u0412\u0412\u0421: \u0420\u0443\u0441\u0438\u044f \u0443\u0434\u0430\u0440\u0438 \u0441 \u0434\u0440\u043e\u043d\u043e\u0432\u0435 \u0438 \u0440\u0430\u043a\u0435\u0442\u0438 \"\u041a\u0438\u043d\u0436\u0430\u043b\", \u0438\u0437\u0441\u0442\u0440\u0435\u043b\u044f\u043d\u0438 \u043e\u0442 \u041c\u0438\u0413-31\u041a \u0438 \u0422\u0443-95\u041c\u0421 - \u0424\u041e\u041a\u0423\u0421 - \u0438\u043d\u0444\u043e\u0440\u043c\u0430\u0446\u0438\u043e\u043d\u043d\u0430 \u0430\u0433\u0435\u043d\u0446\u0438\u044f",
+            "description": null,
+            "url": "https://news.google.com/rss/articles/CBMijwFodHRwczovL3d3dy5mb2N1cy1uZXdzLm5ldC9ub3ZpbmkvbWVqZHVuYXJvZG5pL1VrcmFpbnNraXRlLVZWUy1SdXNpeWEtdWRhcmktcy1kcm9ub3ZlLWktcmFrZXRpLUtpbnpoYWwtaXpzdHJlbHlhbmktb3QtTWlHLTMxSy1pLVR1LTk1TVMtMjEyNzkwNdIBAA?oc=5",
+            "urlToImage": null,
+            "publishedAt": "2024-05-26T06:47:10Z",
+            "content": null
+        }
+    ]
+}
